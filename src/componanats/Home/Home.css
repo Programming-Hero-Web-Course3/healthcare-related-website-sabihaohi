@@ -1,0 +1,25 @@
+.carousel-container{
+    height: 600px;
+    
+}
+.carousel-img{
+    height: 600px;
+}
+.yoga-image{
+    height: 100px;
+    width: 100px;
+    background-color: #BAD7DF;
+    ;
+    padding:20px;
+    border-radius: 48%;
+
+}
+.reason-img{
+    margin-top: -15px !important;
+}
+.reason{
+    background-color:#BAD7DF;
+}
+.logo{
+    margin-top: -7px;
+}

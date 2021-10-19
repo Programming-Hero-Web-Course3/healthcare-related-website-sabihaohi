@@ -1,0 +1,10 @@
+.trainner{
+    background-image: url('../../images/trainnerbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact{
+    background-image: url('../../images/contract.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

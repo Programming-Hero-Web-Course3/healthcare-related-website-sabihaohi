@@ -1,0 +1,9 @@
+.header{
+    background-color: #343a40 !important;
+}
+.link:hover{
+    background-color: white;
+    color:black !important;
+    padding:5px;
+    border-radius: 5px;
+}
