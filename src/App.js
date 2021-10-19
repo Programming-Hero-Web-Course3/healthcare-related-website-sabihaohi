@@ -12,7 +12,7 @@ import SignUp from './componanats/SignUp/Signup';
 import Footer from './componanats/Footer/Footer';
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './componanats/PrivateRoute/PrivateRoute';
-import Service from './componanats/Service/Service';
+import Services from './componanats/Services/Services';
 
 function App() {
   return (
@@ -53,9 +53,9 @@ function App() {
               <SignUp></SignUp>
             </Route>
 
-            <Route path="/service/:serviceId">
-              <Service></Service>
-            </Route>
+            <PrivateRoute path="/service/:serviceId">
+              <Services></Services>
+            </PrivateRoute>
 
             <Route path="*">
               <NotFound></NotFound>

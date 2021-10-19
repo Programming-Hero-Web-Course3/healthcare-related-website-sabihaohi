@@ -19,7 +19,7 @@ const Class = (props) => {
                         <p className="fw-bold"> Price : {price} </p>
                         <p className="fw-bold"> Duration : {duration} Days</p>
                         <p className="fw-bold"> Days : {rules}</p>
-                        <Link to={`service/` + id}><button className="btn-dark p-2 border-none fw-bold button">Enroll Course</button></Link>
+                        <Link to={`service/${id}`}><button className="btn-dark p-2 border-none fw-bold button">Enroll Course</button></Link>
                     </div>
 
                 </div>

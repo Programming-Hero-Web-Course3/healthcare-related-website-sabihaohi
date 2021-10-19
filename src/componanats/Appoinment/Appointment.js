@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Form, Button, FloatingLabel } from 'react-bootstrap';
 import './Appointment.css'
 import AppointmentImg from '../../images/appointment.jpg'
+import { Link } from 'react-router-dom';
 
 const Appointment = () => {
     return (
@@ -49,7 +50,7 @@ const Appointment = () => {
 
 
                                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                                    <Form.Label className="fw-bold">Text</Form.Label>
+                                    <Form.Label className="fw-bold">Your Message</Form.Label>
                                     <Form.Control
                                         as="textarea"
                                         placeholder="Leave a comment here"
@@ -57,9 +58,9 @@ const Appointment = () => {
                                     />
                                 </Form.Group>
 
-                                <Button variant="primary" type="submit">
+                                <Link to="/home"><Button variant="secondary" type="submit">
                                     Submit
-                                </Button>
+                                </Button></Link>
                             </Form>
 
                         </div>
