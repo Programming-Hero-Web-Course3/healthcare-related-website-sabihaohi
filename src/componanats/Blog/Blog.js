@@ -36,7 +36,7 @@ const Shop = () => {
                                 <img className="img-fluid" src={blog1} alt="" />
                                 <div className="blog-details mt-4">
                                     <h3>New cross fit course</h3>
-                                    <p>Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. </p>
+                                    <p>Yoga is an ancient practice that has been used for centuries to heal, nourish, and strengthen the body and mind. During this class, our Certified Yoga </p>
                                     <div className="d-flex fw-bold ">
                                         <p>Date : 08 Jan</p>
                                         <p className="ms-3">Comments : 233</p>
@@ -51,7 +51,7 @@ const Shop = () => {
                                 <img className="img-fluid" src={blog2} alt="" />
                                 <div className="blog-details mt-4">
                                     <h3>Practising yoga on the sea shore </h3>
-                                    <p>Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. </p>
+                                    <p>Therapist will guide you through safe and therapeutic yoga practices designed to help relieve pain, ease sore joints, and increase strength </p>
                                     <div className="d-flex fw-bold ">
                                         <p>Date : 08 Feb</p>
                                         <p className="ms-3">Comments : 33</p>
@@ -66,7 +66,7 @@ const Shop = () => {
                                 <img className="img-fluid" src={blog3} alt="" />
                                 <div className="blog-details mt-4">
                                     <h3>Integer diam gravida fringilla</h3>
-                                    <p>Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, </p>
+                                    <p>Each class may be tailored to your own needs and gentle yoga poses and postures may be done sitting, standing, or lying down. </p>
                                     <div className="d-flex fw-bold ">
                                         <p>Date : 08 may</p>
                                         <p className="ms-3">Comments : 3</p>
@@ -81,7 +81,7 @@ const Shop = () => {
                                 <img className="img-fluid" src={blog4} alt="" />
                                 <div className="blog-details mt-4">
                                     <h3>Donec quis ex vel tincidunt</h3>
-                                    <p>Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, </p>
+                                    <p>Guided meditation and deep relaxation practices are included in every class to help you find calm and connect with your entire body. </p>
                                     <div className="d-flex fw-bold ">
                                         <p>Date : 09 july</p>
                                         <p className="ms-3">Comments : 20</p>
@@ -96,7 +96,7 @@ const Shop = () => {
                                 <img className="img-fluid" src={blog5} alt="" />
                                 <div className="blog-details mt-4">
                                     <h3>Best cardio exercise</h3>
-                                    <p>Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, </p>
+                                    <p>Mind-Body Health from HSS, World #1 in Orthopedics. Breathe better, Feel better. Register today. Be led through guided meditation breathing and yoga techniques. </p>
                                     <div className="d-flex fw-bold ">
                                         <p>Date : 08 oct</p>
                                         <p className="ms-3">Comments : 3</p>

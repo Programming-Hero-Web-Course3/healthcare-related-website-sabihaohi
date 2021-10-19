@@ -1,6 +1,6 @@
 # PowerSurge - Yoga tranning Center.
 
-This project was built with React by Sabiha Khair Ohi. [Live Site](https://power-surge-c4f02.web.app/home).
+This project was built with React by Sabiha Khair Ohi. [Live Site](https://power-surge-c4f02.web.app/).
 
 This is a Health Care Website.
 
