@@ -13,6 +13,7 @@ import Footer from './componanats/Footer/Footer';
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './componanats/PrivateRoute/PrivateRoute';
 import Services from './componanats/Services/Services';
+import AppointConfirm from './componanats/AppointConfirm/AppointConfirm';
 
 function App() {
   return (
@@ -35,6 +36,10 @@ function App() {
 
             <PrivateRoute path="/appointment">
               <Appointment></Appointment>
+            </PrivateRoute>
+
+            <PrivateRoute path="/appointment-confirm">
+              <AppointConfirm></AppointConfirm>
             </PrivateRoute>
 
             <PrivateRoute path="/blog">

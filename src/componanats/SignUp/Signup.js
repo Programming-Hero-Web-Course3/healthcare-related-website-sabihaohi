@@ -9,7 +9,7 @@ import { useHistory, useLocation } from 'react-router';
 
 
 const Signup = () => {
-    const { setEmail, setPassword, setUserName, setUser, setError, signInWithGoogle, handleCreateNewUser, verifyEmail, updateUserName, error, setIsLoading } = useAuth();
+    const { setEmail, setPassword, setUserName, setUser, setError, signInWithGoogle, handleCreateNewUser, verifyEmail, updateUserName, setIsLoading } = useAuth();
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.from || '/home';
@@ -90,9 +90,6 @@ const Signup = () => {
                             <label htmlFor="password" className="fw-bold">Password*</label>
                             <input className="input-field" type="password" {...register("password", { required: true, minLength: 6 })} placeholder="minimum 6 characters" onBlur={handlePassChange} />
                             {errors.password && <p className="text-danger input-error-message">{errors.password.type === 'required' ? <span>This field is required</span> : <span>Minimum six characters long</span>}</p>}
-                            {
-                                error && <p className="text-danger input-error-message">Incorrect Password. Please Try Again.</p>
-                            }
 
 
                             <button type="submit" className="btn-signInMethod signup-submit">Sign Up</button>

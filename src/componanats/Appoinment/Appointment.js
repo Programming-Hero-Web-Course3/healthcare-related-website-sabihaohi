@@ -58,7 +58,7 @@ const Appointment = () => {
                                     />
                                 </Form.Group>
 
-                                <Link to="/home"><Button variant="secondary" type="submit">
+                                <Link to="/appointment-confirm"><Button variant="secondary" type="submit">
                                     Submit
                                 </Button></Link>
                             </Form>
